@@ -1,0 +1,20 @@
+1. Elastic Search
+    1. Download elastic search https://www.elastic.co/downloads/elasticsearch
+    2. Extract it (ex: tar xzf elastic.tar)
+    3. run it (./bin/elasticsearch)
+    4. If cannot allocate memory, change settings of jvm params in jvm.conf)
+    5. test it, curl -XGET http://localhost:9200
+2. Install Kibana
+    1. Download kibana https://www.elastic.co/downloads/kibana
+    2. Extract it.
+    3. run it (./bin/kibana)
+3. Install Logstash
+    1. Download logstash https://www.elastic.co/downloads/logstash
+    2. Extract it.
+    3. Create conf file
+    4. run it( ./bin/logstash -f logstash.conf
+4. Install Filebeat
+    1. Download filebeat from https://www.elastic.co/downloads/beats/filebeat
+    2. Extract it
+    3. Edit filebeat.yml
+    4. run it (.filebeat -e -c filebeat.yml)

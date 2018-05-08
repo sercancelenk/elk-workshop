@@ -1,0 +1,6 @@
+Kibana create index
+* Index contains time-based events (select this option)
+* Use event times to create index names (select this option)
+* Index pattern interval: Daily
+* Index name or pattern: [logstash-]YYYY.MM.DD
+* Click on "Create Index"
